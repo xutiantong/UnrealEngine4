@@ -1,4 +1,4 @@
-# 学习笔记
+# UE4笔记
 
 ## 学习路径
 
@@ -13,6 +13,14 @@
 Reddit论坛：
 
 [reddit](https://www.reddit.com/)
+
+## 免费素材
+
+- 虚幻商城中免费栏
+- 虚幻商城中学习栏下Engine Feature Samples
+- Youtube上搜索unreal free download、ue4 free project download等
+- B站UP主 墨鱼驴肉汤
+- 虚幻官方论坛 社区内容，工具和教程下置顶自由社区资产
 
 ## 安装问题
 
@@ -36,7 +44,7 @@ Assertion failed: GConfig->GetBool( LDev Options.Shaders, LbAllowCompilingThroug
 
 ### 修改工程缓存路径
 
-- 引擎文件目录下`BaseEngine.ini`文件，如下图，修改路径中`InstalledDerivedDataBackendGraph`条目下`ENGINEVERSIONAGNOSTICUSERDIR%DerivedDataCache`为`GAMEDIR%DerivedDataCache`
+- 引擎文件目录下BaseEngine.ini文件，如下图，修改路径中InstalledDerivedDataBackendGraph条目下`ENGINEVERSIONAGNOSTICUSERDIR%DerivedDataCache`为`GAMEDIR%DerivedDataCache`
 
 ![Untitled%20c5e118f52741420b960728d3f8db8548/Untitled%201.png](./MarkDownImg/Untitled1.png)
 
@@ -52,3 +60,21 @@ Assertion failed: GConfig->GetBool( LDev Options.Shaders, LbAllowCompilingThroug
 ### 编辑器
 
 - 个人选择vscode，因为使用更多更顺手且轻量，需要加载插件并修改相关设置，参考：[https://www.cnblogs.com/AnKen/p/10654678.html](https://www.cnblogs.com/AnKen/p/10654678.html)
+
+### 资源导入
+
+- 命名规范：[https://github.com/Allar/ue4-style-guide](https://github.com/Allar/ue4-style-guide)
+
+## 物体编辑
+
+- [笛卡尔坐标系](https://baike.baidu.com/item/%E7%AC%9B%E5%8D%A1%E5%B0%94%E5%9D%90%E6%A0%87%E7%B3%BB/4522878?fr=aladdin)
+
+### BSP
+
+- 尽管现在主要使用StaticMeshes(静态网格物体)来组成关卡，但是BSP画刷仍然有它的用途
+  - 粗略画出关卡
+  - 简单过滤几何体
+- 添加、挖空两种模式
+- 固体性
+- 材质添加
+- BSP画刷工具编辑
