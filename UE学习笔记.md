@@ -78,3 +78,17 @@ Assertion failed: GConfig->GetBool( LDev Options.Shaders, LbAllowCompilingThroug
 - 固体性
 - 材质添加
 - BSP画刷工具编辑
+
+### 地形工具
+
+- 编辑样条曲线：道路、河流
+- 灰度图导入：
+    1. 下载灰度图
+    2. 使用ps打开图片，调整图像模式为灰度并调整颜色通道为16位，保存为png或raw
+    3. 在地形工具管理下从文件导入
+
+### 植被工具
+
+- Align to Normal对齐到法线
+- Cull Distance可视距离
+- 设置碰撞→简单碰撞或凸包分解
