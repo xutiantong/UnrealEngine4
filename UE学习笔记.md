@@ -92,3 +92,13 @@ Assertion failed: GConfig->GetBool( LDev Options.Shaders, LbAllowCompilingThroug
 - Align to Normal对齐到法线
 - Cull Distance可视距离
 - 设置碰撞→简单碰撞或凸包分解
+
+## 蓝图
+
+- 简单触发门：
+    1. 给门添加碰撞
+    2. 添加盒体触发器
+    3. 在蓝图中给盒体触发器添加进入离开事件，增加门的引用，给门添加旋转方法
+    4. 增加时间轴，设置曲线，切记修改时间轴长度
+- 蓝图类：方便多次使用和替换素材
+![Untitled2.png](./MarkDownImg/Untitled2.png)
