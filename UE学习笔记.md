@@ -95,10 +95,19 @@ Assertion failed: GConfig->GetBool( LDev Options.Shaders, LbAllowCompilingThroug
 
 ## 蓝图
 
+- 蓝图类：方便多次使用和替换素材
 - 简单触发门：
     1. 给门添加碰撞
     2. 添加盒体触发器
     3. 在蓝图中给盒体触发器添加进入离开事件，增加门的引用，给门添加旋转方法
     4. 增加时间轴，设置曲线，切记修改时间轴长度
-- 蓝图类：方便多次使用和替换素材
+
 ![Untitled2.png](./MarkDownImg/Untitled2.png)
+
+- 简单电梯：注意电梯地面与碰撞检测盒的层级关系
+
+![Untitled3.png](./MarkDownImg/Untitled3.png)
+
+- 蓝图通信：
+    1. 自定义事件
+    2. 类型转换
