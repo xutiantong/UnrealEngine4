@@ -110,4 +110,22 @@ Assertion failed: GConfig->GetBool( LDev Options.Shaders, LbAllowCompilingThroug
 
 - 蓝图通信：
     1. 自定义事件
-    2. 类型转换
+    2. 类型转换（类似C++的类型转换）
+    3. 控制台命令
+
+- 常用的api可以通过不断使用进行熟悉及掌握
+
+## 常用快捷键
+
+主要还是多用，熟能生巧
+
+1. 自定义快捷键
+2. W、E、R对应位移、旋转、缩放
+3. Alt+2到0除了9视图模式切换
+4. Alt+C显隐场景中的碰撞
+5. Ctrl+Alt+鼠标左键框选
+6. T是否能选中半透明物体
+7. H隐藏物体
+8. Ctrl+E编辑物体
+9. Ctrl+B查找路径
+10. Alt+P开始游戏
