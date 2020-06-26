@@ -129,3 +129,11 @@ Assertion failed: GConfig->GetBool( LDev Options.Shaders, LbAllowCompilingThroug
 8. Ctrl+E编辑物体
 9. Ctrl+B查找路径
 10. Alt+P开始游戏
+
+## ACT项目
+
+- 人物蓝图：
+
+![Untitled4.png](./MarkDownImg/Untitled4.png)
+
+- 动画蓝图/混合空间：动画蓝图用于创建和控制复杂动画行为，而混合空间是允许根据多个输入的值混合任意数量动画的资源。
